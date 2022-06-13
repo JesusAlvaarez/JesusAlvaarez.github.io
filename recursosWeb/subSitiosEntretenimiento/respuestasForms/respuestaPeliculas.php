@@ -42,6 +42,10 @@
 
         $numeroDePeliculas=count($datosXMLPeliculas->Pelicula);
 
+        $isOn_NombrePeli=false;
+        $isOn_Fecha=false;
+        $isOn_Calificacion=false;
+
         if (!empty($_POST['elementosPeliculas'])) {
             //Variables para colocar el nombre de las clases con comillas en el HTML
             $nombreDeClaseTablaPeliculas='"tablaPeliculas"';
@@ -52,19 +56,19 @@
                 <tr>
                 <th>Posición en la tabla</th>
                 ";
-                for ($i=0; $i < count(elementosPeliculas) ; $i++) { 
+                for ($i=0; $i < count($elementosPeliculas) ; $i++) { 
                     $elementosPeliculas[$i]=trim($elementosPeliculas[$i]);
                     if($elementosPeliculas[$i]=="NombrePeli"){
                         echo "<th>Nombre de la pelicula</th>";
                         $isOn_NombrePeli=true;
-                    }else
+                    }
                     if($elementosPeliculas[$i]=="Fecha"){
                         echo "<th>Fecha de Estreno</th>";
                         $isOn_Fecha=true;
-                    }else
+                    }
                     if($elementosPeliculas[$i]=="Calificación"){
                         echo "<th>Calificación</th>";
-                        $isOn_NombrePeli=true;
+                        $isOn_Calificacion=true;
                     }
                 }
             echo "
@@ -77,22 +81,28 @@
                 $contadorDePeliculas++;
                 echo "    
                     <tr class=".$nombreDeClaseCeldaBase.">
-                    ";
-                if
-                echo "
                     <td>$contadorDePeliculas</td>
-                    <td>".$datosXMLPeliculas->Pelicula[$i]->NombreDeLaPelicula."</td>
-                    <td>".$datosXMLPeliculas->Pelicula[$i]->FechaDeEstreno."</td>
-                    <td>".$datosXMLPeliculas->Pelicula[$i]->Calificacion."</td>
-                    </tr>
                     ";
-                }    
+                if($isOn_NombrePeli){
+                    echo "<td>".$datosXMLPeliculas->Pelicula[$i]->NombreDeLaPelicula."</td>";
+                }
+                if($isOn_Fecha){
+                    echo "<td>".$datosXMLPeliculas->Pelicula[$i]->FechaDeEstreno."</td>";
+                }
+                if($isOn_Calificacion){
+                    echo "<td>".$datosXMLPeliculas->Pelicula[$i]->Calificacion."</td>";
+                }
+                echo "
+                    </tr>
+                ";                
+                }
+                echo "</tbody>";
+                echo "</table>";     
             }
-            echo "</tbody>";
-            echo "</table>";
-        }
+            
 
-        if ((($cantPeliculas > 0) && ($cantPeliculas < $numeroDePeliculas)) && ($listaNombresPeliculas!="Todas")) {
+        if ((($cantPeliculas > 0) && ($cantPeliculas < $numeroDePeliculas))
+         && ($listaNombresPeliculas!="Todas") && (empty($elementosPeliculas))) {
             
             //Variables para colocar el nombre de las clases con comillas en el HTML
             $nombreDeClaseTablaPeliculas='"tablaPeliculas"';
@@ -102,7 +112,7 @@
             echo "
             <tr>
                 <th>Posición en la tabla</th>
-                <th>Nombre de la pelicula</th>
+                <th>Nombre de la película</th>
                 <th>Fecha de Estreno</th>
                 <th>Calificación</th>
             </tr>";
@@ -121,9 +131,10 @@
                     </tr>
                     ";
                 }    
-            }
             echo "</tbody>";
             echo "</table>";
+        }
+            
         
         if ($cantPeliculas==0 && $listaNombresPeliculas=="Todas") {
         
