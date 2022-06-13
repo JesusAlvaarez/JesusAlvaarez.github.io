@@ -23,8 +23,8 @@ th,td{
 }
 
 .celdaBase>td{
-    width: 7vw;
-    height: 1.25vw;
+    width: 10vw;
+    height: 2.5vw;
 }
 
 /* tbody tr td:hover,tbody tr td .noExpandir:not(:hover){
