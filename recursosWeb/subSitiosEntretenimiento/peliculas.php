@@ -36,13 +36,13 @@
     <br>
 
     <label for="NombrePeli">¬ Nombre de la pelicula</label>
-    <input type="checkbox" name="elementosPeliculas" id="NombrePeli" value="NombrePeli">
+    <input type="checkbox" name="elementosPeliculas[]" id="NombrePeli" value="NombrePeli">
     <br>
     <label for="Fecha">¬ Fecha de estreno</label>
-    <input type="checkbox" name="elementosPeliculas" id="Fecha" value="Fecha">
+    <input type="checkbox" name="elementosPeliculas[]" id="Fecha" value="Fecha">
     <br>
     <label for="Calificacion">¬ Calificacion</label>
-    <input type="checkbox" name="elementosPeliculas" id="Calificacion" value="Calificacion">
+    <input type="checkbox" name="elementosPeliculas[]" id="Calificacion" value="Calificacion">
 
     <br>
 
