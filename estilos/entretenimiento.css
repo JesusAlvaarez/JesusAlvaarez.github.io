@@ -1,0 +1,12 @@
+#imagenViendoPeliculas{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#videoRecomendaciones{
+    width: 100%;
+    height: 50vw;
+    text-align: center;
+    margin-left: auto;
+}

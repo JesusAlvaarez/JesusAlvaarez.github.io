@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Animes>
+        <Anime>
+            <NombreDelAnime>Death Note </NombreDelAnime>
+            <FechaDeInicioDeEmision>2006</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2007</FechaDeTerminoDeEmision>
+            <Descripcion>Cuando Light Yagami, el mejor estudiante de preparatoria 
+                en todo Japón, encuentra una libreta abandonada en una caminata 
+                por su escuela, esta libreta recibe el nombre de Death Note, 
+                la cual es capaz de matar a cualquier persona cuyo nombre sea 
+                escrito en ella.
+            </Descripcion>
+        </Anime>
+        <Anime></Anime>
+        <Anime>
+            <NombreDelAnime>Fullmetal Alchemist: Brotherhood </NombreDelAnime>
+            <FechaDeInicioDeEmision>2009</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2010</FechaDeTerminoDeEmision>
+            <Descripcion>
+                Los hermanos Edward y Alphonse Elric continúan la búsqueda 
+                de la Piedra Filosofal con la esperanza de restaurar sus cuerpos,
+                que se perdieron cuando intentaron utilizar sus habilidades en 
+                alquimia al tratar de resucitar a su madre fallecida.
+            </Descripcion>
+        </Anime>
+        <Anime>
+            <NombreDelAnime>One Punch Man</NombreDelAnime>
+            <FechaDeInicioDeEmision>2015</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>En emisión</FechaDeTerminoDeEmision>
+            <Descripcion>
+                La historia tiene lugar en una metrópolis ficticia conocida 
+                como Ciudad Z, en Japón. El mundo se ve invadido por extraños 
+                monstruos que aparecen misteriosamente y que causan numerosos 
+                desastres a la población. Saitama es un poderoso superhéroe 
+                calvo que derrota fácilmente a los monstruos u otros villanos 
+                con un único golpe de su puño. Debido a esto, Saitama ha encontrado 
+                aburrida su fuerza y siempre está tratando de encontrar rivales 
+                más poderosos que le puedan igualar.
+            </Descripcion>
+        </Anime>
+        <Anime>
+            <NombreDelAnime>Cowboy Bebop</NombreDelAnime>
+            <FechaDeInicioDeEmision>1998</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>1999</FechaDeTerminoDeEmision>
+            <Descripcion>
+                Transcurre el año 2071. La tripulación de la nave Bebop, 
+                inicialmente compuesta por Spike Spiegel y Jet Black, viaja
+                por todo el sistema solar en busca de recompensas. 
+                A lo largo de sus aventuras se incorporan tres nuevos 
+                personajes a su tripulación: Faye Valentine, Ed y, la 
+                mascota, Ein. Durante sus aventuras se desvela la tortuosa 
+                relación entre el protagonista Spike y su viejo camarada Vicious, 
+                lo que conduce al desenlace de la serie.
+            </Descripcion>
+        </Anime>
+        <Anime>
+            <NombreDelAnime>Ataque a los titanes</NombreDelAnime>
+            <FechaDeInicioDeEmision>2013</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>En emisión</FechaDeTerminoDeEmision>
+            <Descripcion>En el presente, la ciudad no ha visto a ningún titán 
+                en más de 100 años. Pero Eren y su hermana adoptiva Mikasa 
+                presencian algo horrible: las murallas de la ciudad son 
+                destruidas por un titán colosal que aparece de la nada. 
+                No pasará mucho tiempo hasta que los gigantes entran por 
+                el hueco abierto en el muro y comienzan a devorar a la gente.
+            </Descripcion>
+            <Descripcion></Descripcion>
+        </Anime>
+    </Animes>
+</Lista>

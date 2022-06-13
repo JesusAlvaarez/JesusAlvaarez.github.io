@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="lasMejoresPeliculas.xsd">
+        <Pelicula>
+           <NombreDeLaPelicula>El padrino</NombreDeLaPelicula>
+           <FechaDeEstreno>1972</FechaDeEstreno>
+           <Calificacion>9.6</Calificacion>
+        </Pelicula>
+        <Pelicula>
+            <NombreDeLaPelicula>El señor de los anillos</NombreDeLaPelicula>
+            <FechaDeEstreno>2003</FechaDeEstreno>
+            <Calificacion>9.2</Calificacion>
+         </Pelicula>
+         <Pelicula>
+            <NombreDeLaPelicula>La vida es bella</NombreDeLaPelicula>
+            <FechaDeEstreno>1998</FechaDeEstreno>
+            <Calificacion>8.9</Calificacion>
+         </Pelicula>
+         <Pelicula>
+            <NombreDeLaPelicula>The Avengers</NombreDeLaPelicula>
+            <FechaDeEstreno>2012</FechaDeEstreno>
+            <Calificacion>9.1</Calificacion>
+         </Pelicula>
+         <Pelicula>
+            <NombreDeLaPelicula>La lista de Schindler</NombreDeLaPelicula>
+            <FechaDeEstreno>1993</FechaDeEstreno>
+            <Calificacion>9.5</Calificacion>
+         </Pelicula>
+         <Pelicula>
+            <NombreDeLaPelicula>La lista de Schindler</NombreDeLaPelicula>
+            <FechaDeEstreno>1993</FechaDeEstreno>
+            <Calificacion>9.5</Calificacion>
+         </Pelicula>
+         <Pelicula>
+            <NombreDeLaPelicula>La lista de Schindler</NombreDeLaPelicula>
+            <FechaDeEstreno>1993</FechaDeEstreno>
+            <Calificacion>9.5</Calificacion>
+         </Pelicula>
+         <Pelicula>
+            <NombreDeLaPelicula>La lista de Schindler</NombreDeLaPelicula>
+            <FechaDeEstreno>1993</FechaDeEstreno>
+            <Calificacion>9.5</Calificacion>
+         </Pelicula>
+</Lista>

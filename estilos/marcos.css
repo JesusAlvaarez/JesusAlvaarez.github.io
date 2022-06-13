@@ -1,0 +1,12 @@
+iframe{
+    width: 99%;
+    height: 78vh;
+}
+
+.secciones{
+    border-radius: 0.5vw;
+}
+
+#seccionIntroduccion{
+    border: 0.3vw solid rgb(0, 0, 0);
+}

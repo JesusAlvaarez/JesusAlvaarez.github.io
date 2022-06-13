@@ -1,0 +1,152 @@
+body{
+    background-color: aliceblue;
+}
+
+header,nav,main,footer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    text-align: center;
+    color: aliceblue;
+    background-color: #17181C;
+    border: 1vw solid aliceblue;
+    border-radius: 1.5vw;
+}
+
+.contDatosDelEstudiante{  
+    overflow: hidden; 
+}
+
+.item{
+    margin: .25vw;
+    padding: .25vw;
+    float: left;
+}
+
+.fotoDePerfil{
+    width: 6vw;
+    border-radius: 7%;
+    margin-left: -.5vw;
+    transition: all .25s;
+}
+
+.fotoDePerfil:hover{
+    width: 10vw;
+}
+
+.tablaDatosDelEstudiante>tbody>tr>td{
+    height: 50px;
+    border: .2vw solid aliceblue;
+}
+
+/* Barra de navegacion */
+
+nav{
+    align-items: center;
+    height: auto;
+    background-color:#17181C;
+    text-align: center;
+    border-radius: .5vw;
+}
+
+nav>ul{
+    list-style: none;
+    display: inline-block;
+    margin:0;
+    padding:0;
+ }
+
+ nav>ul>li{
+     float: left;
+ }
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+p{
+    text-align: justify;
+    margin-left: 4vw;
+}
+
+#menu ul li {
+    background-color:#17181C;
+}
+
+#menu ul {
+  list-style:none;
+
+}
+
+#menu ul a {
+  display:block;
+  color:#fff;
+  text-decoration:none;
+  font-weight:400;
+  font-size:15px;
+  padding:10px;
+  font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+#menu ul li {
+  position:relative;
+  float:left;
+  margin:0;
+  padding:0;
+}
+
+#menu ul li:hover {
+  background:#5b78a7;
+}
+
+#menu ul ul {
+  display:none;
+  position:absolute;
+  top:100%;
+  left:0;
+  padding:0;
+}
+
+#menu ul ul li {
+  float:none;
+  width:150px
+}
+
+#menu ul ul a {
+  line-height:120%;
+  padding:10px 15px;
+}
+
+#menu ul li:hover > ul {
+  display:block;
+}
+
+.contDesarrolloNivelesDeEstudios>article>h3{
+    margin-left: 2vw;
+}
+
+#p-rev{
+    margin-left: 2vw;
+}
+
+footer{
+    color: azure;
+    background-color: #17181C;
+    text-align: center;
+    border-radius: .5vw;
+}
+
+footer>h4:first-child{
+    padding-top: 1.5vw;
+}
+
+footer>h4:last-child{
+    padding-bottom: 1.5vw;
+}

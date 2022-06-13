@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Series>
+        <Serie>
+            <NombreDeSerie>Breaking Bad</NombreDeSerie>
+            <FechaDeInicioDeEmision>2008</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2013</FechaDeTerminoDeEmision>
+            <Creador>Vince Gilligan</Creador>
+            <Genero>Thriller</Genero>
+            <Temporadas>5</Temporadas>
+            <Descripcion>
+                Breaking Bad tiene como ingrediente estrella a uno de los 
+                antihéroes más admirados de los últimos tiempos.
+                Walter White, un profesor de química de Albuquerque, 
+                se enfrenta a un cáncer terminal cuando cumple 50 años. 
+                Lejos de dejar a su familia endeudada de por vida, el hombre 
+                decide cocinar metanfetamina y comercializarlas. De esta forma, 
+                podrá dejar una cuantiosa herencia a su familia.
+            </Descripcion>
+        </Serie>
+        <Serie>
+            <NombreDeSerie>Los Soprano</NombreDeSerie>
+            <FechaDeInicioDeEmision>1999</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2007</FechaDeTerminoDeEmision>
+            <Creador>David Chase</Creador>
+            <Genero>Drama</Genero>
+            <Temporadas>6</Temporadas>
+            <Descripcion>
+                Sin duda esta épica sobre la mafia revolucionó, para bien, 
+                la historia de las series de televisión.La serie supuso el 
+                inicio de una nueva era para las ficciones televisivas.
+                ¿Qué había antes de Los Soprano? La pequeña pantalla estaba 
+                cargada de ficciones que ahondaban menos en la profundidad 
+                de los personajes.
+                Los Soprano presenta por primera vez una propuesta del 
+                antihéroe moderno.
+                El gran Tony Soprano es un padre de familia, pero, al mismo 
+                tiempo, es un temible mafioso. Un antihéroe con el que el 
+                público logra empatizar y qué, más tarde, se consolidaría en 
+                ficciones posteriores como Breaking Bad.
+            </Descripcion>
+        </Serie>
+        <Serie>
+            <NombreDeSerie>Juego de tronos</NombreDeSerie>
+            <FechaDeInicioDeEmision>2011</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2019</FechaDeTerminoDeEmision>
+            <Creador>David Benioff y D. B. Weiss</Creador>
+            <Genero>Fantasía</Genero>
+            <Temporadas>8</Temporadas>
+            <Descripcion>
+                Producida por HBO, la ficción consta de 8 temporadas y 73 
+                episodios. Su argumento está basado en los libros de George 
+                R.R. Martin y se desarrolla en un mundo ficticio llamado 
+                Poniente, donde varias familias disputan por sentarse en 
+                el Trono de Hierro.
+                A medida que avanza la serie, los personajes 
+                lo tienen cada vez más complicado para hacerse con el poder. 
+                La ficción ha logrado consagrarse como una de las “reinas” 
+                de la televisión en streaming y, no es para menos, pues supone 
+                un auténtico espectáculo visual.
+            </Descripcion>
+        </Serie>
+        <Serie>
+            <NombreDeSerie>The Wire</NombreDeSerie>
+            <FechaDeInicioDeEmision>2002</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2008</FechaDeTerminoDeEmision>
+            <Creador>David Simon</Creador>
+            <Genero>Thriller</Genero>
+            <Temporadas>5</Temporadas>
+            <Descripcion>
+                The Wire es una serie policíaca que con el paso del 
+                tiempo ha sido catalogada como serie de culto. 
+                La ficción se centra en los barrios bajos de Baltimore, 
+                Estados Unidos, donde se desarrolla una compleja trama policial.
+                Cada una de las temporadas se centra en un aspecto distinto de 
+                la ciudad: el narcotráfico, los políticos, el sistema 
+                educativo o los medios de comunicación.
+            </Descripcion>
+        </Serie>
+        <Serie>
+            <NombreDeSerie>The Office</NombreDeSerie>
+            <FechaDeInicioDeEmision>2005</FechaDeInicioDeEmision>
+            <FechaDeTerminoDeEmision>2013</FechaDeTerminoDeEmision>
+            <Creador>Greg Daniels</Creador>
+            <Genero>Comedia</Genero>
+            <Temporadas>9</Temporadas>
+            <Descripcion>
+                Una de las grandes sitcom del siglo XXI, especialmente en sus 
+                primeras temporadas. Está basada en la serie británica 
+                homónima estrenada en 2001, y se centra en el día a día de 
+                los ineptos trabajadores de la empresa Dunder Mifflin y su 
+                extravagante jefe.
+            </Descripcion>
+            <Descripcion></Descripcion>
+        </Serie>
+    </Series>
+</Lista>
