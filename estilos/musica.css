@@ -11,10 +11,11 @@ body{
     border-radius: 0.5vw;
 }
 
-#imagenSpotify{
+.imagenSpotify{
     width: auto;
     height: auto;
     text-align: center;
+    border-radius: 0.5vw;
 }
 
 #explicacionMusica{
@@ -26,13 +27,22 @@ body{
     background-color: aliceblue;
     /* border: 0.2vw solid rgb(48, 48, 48); */
     border-radius: 0.5vw;
+    font-size: large;
 }
 iframe{
     margin-left: auto;
     width: 99%;
     height: 9vw;
+    display: inline-block;
 }
 
 .cancion{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    background-color: rgb(109, 192, 70);
+    border-radius: .5vw;
+    display: inline-block;
+    border: 1vw solid rgb(109, 192, 70);
 }

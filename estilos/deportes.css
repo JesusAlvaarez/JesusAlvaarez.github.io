@@ -1,0 +1,36 @@
+iframe{
+    width: 80%;
+    height: 76vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 1vw;
+}
+
+.secciones{
+    border-radius: 0.5vw;
+}
+
+h3{
+    color: rgb(14, 60, 145);
+    text-align: justify;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    border-style: dashed;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txtLista{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}

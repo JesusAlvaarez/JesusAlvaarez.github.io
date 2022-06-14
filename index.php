@@ -35,7 +35,7 @@
                     </ul>
                 </li>
 
-                <li><a class="boton" target="recargable" href="recursosWeb/">Comida</a></li>
+                <li><a class="boton" target="recargable" href="recursosWeb/comida.html">Comida</a></li>
                 <li><a class="boton" target="recargable" href="recursosWeb/deportes.html">Deportes</a></li>
             </ul>
         </nav>
@@ -48,6 +48,46 @@
                      name="recargable" src="recursosWeb/introduccion.html"
                       frameborder="0"></iframe>
                 </div>
-            </section>    
+            </section>
+        </main>    
 </body>
+<footer>
+    <div class="pieDePagina">
+        <h4>Sitio diseñado y desarrollado por: Jesus Alvarez Aguilar</h4>
+        <h4>Creado con las tecnologías: </h4>
+    <div class="primeraLista">
+        <ul class="listaIzquierda">
+            <li>
+                <span id="txtHTML">
+                    <img class="imagenIcono" src="images/icons/html.ico" alt="html">
+                </span>
+            </li>
+            <li>
+                <span id="txtCSS">
+                    <img class="imagenIcono" src="images/icons/css3.ico" alt="html">
+                </span>
+            </li>
+            <li>
+                <span id="txtPHP">
+                    <img class="imagenIcono" src="images/icons/php.ico" alt="html">
+                </span>
+            </li>
+        </ul>
+    </div>  
+    <h4>Y herramientas como:</h4>
+    <div class="primeraLista">
+    <ul class="listaIzquierda">
+        <li>
+            <span id="txtLucid">
+                <img class="imagenIcono" src="images/icons/drawing.ico" alt="html">
+            </span>
+        </li>
+        <li>
+            <span id="txtFigma">
+                <img class="imagenIcono" src="images/icons/figma.ico" alt="html">
+            </span>
+        </li>
+    </ul>
+    </div>
+</footer>
 </html>

@@ -53,4 +53,13 @@
             return "Función Completa";
     }
 
+    function mostrarContenido($nombreArreglo,$numeroLugares,$numeroPlatillos){
+        for($j=0;$j<=$numeroLugares;$j++){
+            for($i=0;$i<=$numeroPlatillos;$i++){
+                echo $nombreArreglo[$j][$i];
+            }
+        }
+        return "Función Completa";
+    }
+
 ?>

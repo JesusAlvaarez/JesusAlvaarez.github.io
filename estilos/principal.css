@@ -143,10 +143,50 @@ footer{
     border-radius: .5vw;
 }
 
-footer>h4:first-child{
-    padding-top: 1.5vw;
+.pieDePagina{
+    /* border-style: dotted; */
+    display: inline-block;
 }
 
-footer>h4:last-child{
-    padding-bottom: 1.5vw;
+.listaIzquierda{
+    text-align: left;
+    list-style: square;
+}
+
+
+span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.imagenIcono{
+    width: 1vw;
+}
+
+#txtHTML::before{
+content: 'HTML';
+}
+#txtCSS::before{
+content: 'CSS';
+}
+#txtPHP::before{
+content: 'PHP';
+}
+#txtLucid::before{
+content: 'LucidChart';
+}
+#txtFigma::before{
+content: 'Figma';
+}
+
+.primeraLista>ul {
+    font-size: 1vw;
+    display: inline-flex;
+}
+.primeraLista>ul>li {
+margin: 1vw;
 }
