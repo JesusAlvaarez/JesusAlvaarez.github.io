@@ -2,7 +2,7 @@
 <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Series>
         <Serie>
-            <NombreDeSerie>Breaking Bad</NombreDeSerie>
+            <NombreDeSerie>  Breaking Bad  </NombreDeSerie>
             <FechaDeInicioDeEmision>2008</FechaDeInicioDeEmision>
             <FechaDeTerminoDeEmision>2013</FechaDeTerminoDeEmision>
             <Creador>Vince Gilligan</Creador>

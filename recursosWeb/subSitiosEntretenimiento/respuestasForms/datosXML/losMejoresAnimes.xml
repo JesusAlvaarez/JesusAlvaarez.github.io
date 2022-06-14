@@ -2,7 +2,7 @@
 <Lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Animes>
         <Anime>
-            <NombreDelAnime>Death Note </NombreDelAnime>
+            <NombreDelAnime>Death Note</NombreDelAnime>
             <FechaDeInicioDeEmision>2006</FechaDeInicioDeEmision>
             <FechaDeTerminoDeEmision>2007</FechaDeTerminoDeEmision>
             <Descripcion>Cuando Light Yagami, el mejor estudiante de preparatoria 
@@ -12,9 +12,8 @@
                 escrito en ella.
             </Descripcion>
         </Anime>
-        <Anime></Anime>
         <Anime>
-            <NombreDelAnime>Fullmetal Alchemist: Brotherhood </NombreDelAnime>
+            <NombreDelAnime>Fullmetal Alchemist Brotherhood</NombreDelAnime>
             <FechaDeInicioDeEmision>2009</FechaDeInicioDeEmision>
             <FechaDeTerminoDeEmision>2010</FechaDeTerminoDeEmision>
             <Descripcion>

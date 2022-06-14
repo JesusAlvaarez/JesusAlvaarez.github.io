@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../estilos/textos.css">
+    <link rel="stylesheet" href="../../estilos/entretenimiento.css">
     <title>Peliculas</title>
 
     <?php
@@ -23,6 +24,7 @@
     enctype="multipart/form-data"
     method="post">
     <?php
+        $primerLabelTxt='"primerLabel"';
         echo "<label for='cantPeliculas'>Introduce la cantidad de peliculas a mostrar (max.".$numeroDePeliculas.")</label>";
         echo "<input type='number' name='cantPeliculas' id='cantPeliculas' min='1' max='".$numeroDePeliculas."'>"
     ?>
@@ -35,14 +37,23 @@
 
     <br>
 
-    <label for="NombrePeli">¬ Nombre de la pelicula</label>
-    <input type="checkbox" name="elementosPeliculas[]" id="NombrePeli" value="NombrePeli">
-    <br>
-    <label for="Fecha">¬ Fecha de estreno</label>
-    <input type="checkbox" name="elementosPeliculas[]" id="Fecha" value="Fecha">
-    <br>
-    <label for="Calificacion">¬ Calificacion</label>
-    <input type="checkbox" name="elementosPeliculas[]" id="Calificacion" value="Calificacion">
+    <div class="listaDeCheckBoxes">
+        <div class="inputBox">
+            <label for="NombrePeli">¬ Nombre de la pelicula</label>
+            <input type="checkbox" name="elementosPeliculas[]" id="NombrePeli" value="NombrePeli">    
+        </div>
+        <br>
+        <div class="inputBox">
+            <label for="Fecha">¬ Fecha de estreno</label>
+            <input type="checkbox" name="elementosPeliculas[]" id="Fecha" value="Fecha">
+        </div>
+        <br>
+        <div class="inputBox">
+            <label for="Calificacion">¬ Calificación</label>
+            <input type="checkbox" name="elementosPeliculas[]" id="Calificacion" value="Calificacion">
+        </div>
+    </div>
+    
 
     <br>
 
@@ -58,9 +69,11 @@
 
     <br>
     <br>
-
-    <input type="submit" value="Enviar datos">
-
+    
+    <div class="inputButton">
+        <input type="submit" value="Enviar datos" class="button" id="button">
+    </div>
+    
     </form>
     
 </body>
