@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../estilos/entretenimiento.css">
     <title>Series</title>
     <?php
-        include_once("C:\\xampp\\htdocs\\PracticaNo4\\scripts\\funciones.php");
+        include_once("../../scripts/funciones.php");
     ?>
 </head>
 <body>
